@@ -40,6 +40,12 @@ public class XpathCode {
 	@FindBy(xpath = ".//*[@id='email']")
 	public WebElement email;
 	
+	@FindBy(xpath = ".//input[@id='email']/ancestor::td[2]")
+	public WebElement log;
+	
+	@FindBy(xpath = ".//input[@id='email']/descendant::td[2]")
+	public WebElement log12;
+	
 	public <V> V waitFor(WebDriver driver, ExpectedCondition<V>expectedCondition, int timeOutInSeconds)
 	{
 		return new WebDriverWait(driver, timeOutInSeconds, 500).until(expectedCondition);
@@ -70,5 +76,4 @@ public class XpathCode {
 		XpathCode x = new XpathCode();
 		x.webElem();
 	}
-
 }

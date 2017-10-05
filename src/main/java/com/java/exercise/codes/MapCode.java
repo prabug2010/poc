@@ -49,7 +49,7 @@ public class MapCode {
 	{
 		System.out.println(val);
 	}
-	
+	System.out.println("Set view of a hashmap");
 	Set s1 = h.entrySet();
 	System.out.println(s1);
 	

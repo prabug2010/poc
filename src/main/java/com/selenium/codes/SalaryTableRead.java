@@ -28,7 +28,5 @@ public class SalaryTableRead {
 				System.out.println("cell value in row "+i+"and column "+x+" are : "+s);
 			}
 		}
-		
 	}
-
 }

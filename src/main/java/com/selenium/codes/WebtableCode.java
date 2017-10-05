@@ -22,7 +22,6 @@ public class WebtableCode {
 		System.out.println(cell);
 		WebElement link = driver.findElement(By.xpath(".//*[@id='content']/table/tbody/tr[1]/td[6]/a/text()"));
 		waitFor.until(ExpectedConditions.elementToBeClickable(link));
-		link.click();
-		
+		link.click();		
 	}
 }
