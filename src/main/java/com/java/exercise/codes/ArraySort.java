@@ -23,11 +23,9 @@ public class ArraySort {
 		{
 			System.out.println(a[x]);
 		}
-		
 	}
 
 	public static void main(String[] args) {
 		arraySort();
 	}
-
 }

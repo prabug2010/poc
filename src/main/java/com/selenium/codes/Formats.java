@@ -167,6 +167,5 @@ public class Formats {
 	alert.sendKeys(s);
 	alert.getText();
 	
-	
 	}
 }

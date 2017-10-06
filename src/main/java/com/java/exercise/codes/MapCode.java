@@ -34,7 +34,7 @@ public class MapCode {
 	Iterator i1 = h.entrySet().iterator();
 	while(i1.hasNext())
 	{
-		Map.Entry<String, Integer> e = (Map.Entry<String, Integer>) i1.next();
+		Map.Entry<String, Integer> e =  (Entry<String, Integer>) i1.next();
 		System.out.println(e.getKey()+" : "+e.getValue());
 	}
 	//key set approach
