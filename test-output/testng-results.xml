@@ -1,77 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82204" started-at="2017-10-05T16:48:00Z" finished-at="2017-10-05T16:49:22Z">
+  <suite name="Default suite" duration-ms="10456" started-at="2017-10-09T11:43:30Z" finished-at="2017-10-09T11:43:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82204" started-at="2017-10-05T16:48:00Z" finished-at="2017-10-05T16:49:22Z">
-      <class name="com.selenum.excel.TestExcel">
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.selenum.excel.TestExcel@6b09bb57]" name="test1" duration-ms="21603" started-at="2017-10-05T22:18:03Z" data-provider="data" finished-at="2017-10-05T22:18:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[demo12]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="10456" started-at="2017-10-09T11:43:30Z" finished-at="2017-10-09T11:43:41Z">
+      <class name="com.api.testing.codes.SampleCode">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:com.api.testing.codes.SampleCode@6b09bb57]" name="setBaseUri" is-config="true" duration-ms="1601" started-at="2017-10-09T17:13:30Z" finished-at="2017-10-09T17:13:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.selenum.excel.TestExcel@6b09bb57]" name="test1" duration-ms="22135" started-at="2017-10-05T22:18:25Z" data-provider="data" finished-at="2017-10-05T22:18:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[demo123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setBaseUri -->
+        <test-method status="PASS" signature="test01()[pri:0, instance:com.api.testing.codes.SampleCode@6b09bb57]" name="test01" duration-ms="6326" started-at="2017-10-09T17:13:32Z" finished-at="2017-10-09T17:13:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.selenum.excel.TestExcel@6b09bb57]" name="test1" duration-ms="17894" started-at="2017-10-05T22:18:47Z" data-provider="data" finished-at="2017-10-05T22:19:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[demo1234]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test02()[pri:0, instance:com.api.testing.codes.SampleCode@6b09bb57]" name="test02" duration-ms="1539" started-at="2017-10-09T17:13:38Z" finished-at="2017-10-09T17:13:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.selenum.excel.TestExcel@6b09bb57]" name="test1" duration-ms="17483" started-at="2017-10-05T22:19:05Z" data-provider="data" finished-at="2017-10-05T22:19:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[demo12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test03()[pri:0, instance:com.api.testing.codes.SampleCode@6b09bb57]" name="test03" duration-ms="906" started-at="2017-10-09T17:13:40Z" finished-at="2017-10-09T17:13:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.selenum.excel.TestExcel -->
+        </test-method> <!-- test03 -->
+      </class> <!-- com.api.testing.codes.SampleCode -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

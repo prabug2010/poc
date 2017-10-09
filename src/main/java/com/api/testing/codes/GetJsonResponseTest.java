@@ -9,7 +9,7 @@ import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 import static org.hamcrest.Matchers.*;
 import static org.hamcrest.Matchers.equalTo;
-import static org.junit.Assert.assertThat;
+
 
 public class GetJsonResponseTest {
 
@@ -32,7 +32,7 @@ public class GetJsonResponseTest {
 
    String s= res.path("results[0].formatted_address");
     
-  Assert.assertEquals(s, "Maharshi Karve Rd, Churchgate, Mumbai, Maharashtra 400020, India");
+ // Assert.assertEquals(s, "Maharshi Karve Rd, Churchgate, Mumbai, Maharashtra 400020, India");
  System.out.println(s);
     	
   }
