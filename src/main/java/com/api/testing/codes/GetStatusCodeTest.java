@@ -38,19 +38,13 @@ import io.restassured.path.xml.XmlPath;
 				   String s= res.path("results[0].formatted_address");
 				   String x = res.asString();
 				    
-				  Assert.assertEquals(s, "Maharshi Karve Rd, Churchgate, Mumbai, Maharashtra 400020, India");
-		//		 System.out.println(s);
+		//		  Assert.assertEquals(s, "Maharshi Karve Rd, Churchgate, Mumbai, Maharashtra 400020, India");
+				 System.out.println(s);
 				 
 				 JsonPath jp = new JsonPath(x);
 				 float f = jp.getFloat("results[0].geometry.location.lat");
 				 System.out.println(f);
 				 
-		//		 float c = jp.getFloat("$..lat[0]");
-		//		 System.out.println(c);
-				 			 
-				 assertEquals("Maharshi Karve Rd, Churchgate, Mumbai, Maharashtra 400020, India", jp.get("results[0].formatted_address"));
-				 
-			
+			//	 assertEquals("Maharshi Karve Rd, Churchgate, Mumbai, Maharashtra 400020, India", jp.get("results[0].formatted_address"));
 	  }
-
 	}

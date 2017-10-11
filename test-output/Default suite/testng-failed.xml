@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenum.excel.TestExcel">
+      <class name="com.api.testing.codes.ResponseSpecificationTest">
         <methods>
-          <include name="test1"/>
+          <include name="Test01"/>
+          <include name="requestSpec"/>
         </methods>
-      </class> <!-- com.selenum.excel.TestExcel -->
+      </class> <!-- com.api.testing.codes.ResponseSpecificationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -4,27 +4,35 @@ import org.testng.annotations.Test;
 
 public class DependsCodeAndException {
 
-	  @Test (dependsOnMethods = { "OpenBrowser" })
+	  @Test (dependsOnMethods = { "openBrowser" })
 	 
-	  public void SignIn() {
+	  public void signIn() {
 	 
 		  System.out.println("This will execute second (SignIn)");
-	 
+	 throw new RuntimeException();
 	  }
 	 
 	  @Test
 	 
-	  public void OpenBrowser() {
+	  public void openBrowser() {
 	 
 		  System.out.println("This will execute first (Open Browser)");
 	 
 	  }
+	  
+	  @Test (dependsOnMethods = { "signIn" })
+		 
+	  public void home() {
 	 
-	  @Test (dependsOnMethods = { "SignIn" }, alwaysRun=true)
+		  System.out.println("This will execute third (Home)");
 	 
-	  public void LogOut() {
+	  }
 	 
-		  System.out.println("This will execute third (Log Out)");
+	  @Test (dependsOnMethods = { "signIn" }, alwaysRun=true)
+	 
+	  public void logOut() {
+	 
+		  System.out.println("This will execute fourth (Log Out)");
 	 
 	  }
 	  

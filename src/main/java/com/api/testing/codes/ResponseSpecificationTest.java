@@ -10,6 +10,9 @@ import com.jayway.restassured.builder.ResponseSpecBuilder;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.specification.ResponseSpecification;
 import static com.jayway.restassured.RestAssured.*;
+import io.restassured.RestAssured.*;
+import org.hamcrest.Matchers.*;
+import io.restassured.matcher.RestAssuredMatchers;
 
 public class ResponseSpecificationTest {
 

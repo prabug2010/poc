@@ -38,7 +38,7 @@ public class PostExample {
 	    	Post2Pojo p;
 	    	TestPojo tp = new TestPojo();
 	    	try {
-	 //   		ps = obj.readValue(s, new TypeReference<List<PostExamplePojo>>() {});
+	   //		ps = obj.readValue(s, new TypeReference<List<PostExamplePojo>>() {});
 	   // 		System.out.println(ps);
 	    		p = obj.readValue(s, Post2Pojo.class);
 	    		System.out.println(p);

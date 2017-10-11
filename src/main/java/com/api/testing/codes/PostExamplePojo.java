@@ -15,7 +15,7 @@ public class PostExamplePojo {
 	private String Logo;
 	private String URL;
 	private int ID;
-	private String[] MovieBooking;
+	private Object[] MovieBooking;
 	public int getMov_ID() {
 		return Mov_ID;
 	}
@@ -64,7 +64,7 @@ public class PostExamplePojo {
 	public void setID(int iD) {
 		ID = iD;
 	}
-	public String[] getMovieBooking() {
+	public Object[] getMovieBooking() {
 		return MovieBooking;
 	}
 	public void setMovieBooking(String[] movieBooking) {
