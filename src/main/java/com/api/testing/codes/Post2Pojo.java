@@ -21,5 +21,4 @@ public class Post2Pojo {
 		return "Post2Pojo [MovieBooking=" + MovieBooking + "]";
 	}
 
-
 }

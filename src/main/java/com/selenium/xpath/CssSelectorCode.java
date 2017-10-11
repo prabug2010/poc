@@ -1,9 +1,6 @@
 package com.selenium.xpath;
 
-
-
-import java.awt.List;
-
+import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,5 +28,12 @@ public class CssSelectorCode {
 		System.out.println(sibling.getText());
 		String childsub =  driver.findElement(By.cssSelector("#AlertBox button")).getText();
 		System.out.println(childsub);
+		List<WebElement> l1 = driver.findElements(By.tagName("option"));
+		int n = l1.size();
+		for(int i=0; i<n; i++)
+		{
+			String s = l1.get(i).getText();
+			System.out.println(s);
+		}
 	}
 }

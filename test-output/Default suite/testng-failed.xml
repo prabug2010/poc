@@ -3,12 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.api.testing.codes.ResponseSpecificationTest">
         <methods>
           <include name="Test01"/>
           <include name="requestSpec"/>
         </methods>
       </class> <!-- com.api.testing.codes.ResponseSpecificationTest -->
+=======
+      <class name="com.api.testing.codes.JsonArrayRespCode">
+        <methods>
+          <include name="test"/>
+          <include name="setBasrURI"/>
+        </methods>
+      </class> <!-- com.api.testing.codes.JsonArrayRespCode -->
+>>>>>>> 15ec1115c5bbf6fee5b2e7031fb1fba055c3924d
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
